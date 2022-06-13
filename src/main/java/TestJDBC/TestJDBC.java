@@ -12,7 +12,7 @@ public class TestJDBC {
         try{
             System.out.println("this is for connection ...");
             Connection myconnect = DriverManager.getConnection(jdbcUrl , user , pass);
-            System.out.println("table is connected  ...");
+            System.out.println("table is connected  ..." );
 
         }catch (Exception exp){
             exp.printStackTrace();
